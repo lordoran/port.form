@@ -6,7 +6,6 @@ The portformat package is a Go library for parsing strings of port numbers and r
 Installation
 To install portformat, use go get:
 
-arduino
 
 `go get https://github.com/lordoran/port.form.git`
 
