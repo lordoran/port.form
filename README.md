@@ -1,4 +1,4 @@
-Portformat
+Port.format
 
 The portformat package is a Go library for parsing strings of port numbers and ranges. It provides a simple interface for converting strings to slices of integers.
 Installation
@@ -7,13 +7,11 @@ To install portformat, use go get:
 
 arduino
 
-go get github.com/<username>/portformat
+`go get github.com/<username>/portformat`
 
-Usage
+Usage:
 
-go
-
-package main
+`package main
 
 import (
 	"fmt"
@@ -26,15 +24,13 @@ func main() {
 		panic(err)
 	}
 	fmt.Println(ports)
-}
+}`
 
 Output:
 
-yaml
+`[80 443 8080 8081]`
 
-[80 443 8080 8081]
-
-Functionality
+*Functionality*
 
 The PortsFromString function parses a string of port numbers and ranges separated by commas and/or dashes and returns a slice of integers. For example, "80,443,8080-8081" would be parsed as the slice [80, 443, 8080, 8081].
 Limitations
