@@ -8,7 +8,7 @@ To install portformat, use go get:
 
 arduino
 
-`go get github.com/<username>/portformat`
+`go get https://github.com/lordoran/port.form.git`
 
 Usage:
 
